@@ -25,7 +25,7 @@ Modify the `<head>` tag of your `web/index.html` to load the Google Maps JavaScr
 
   <!-- // Other stuff -->
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?loading=async&key=YOUR_API_KEY"></script>
 </head>
 ```
 
@@ -36,7 +36,7 @@ circles or markers on a map), include it like this:
 
 ```html
 <script
-  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=drawing">
+  src="https://maps.googleapis.com/maps/api/js?loading=async&key=YOUR_API_KEY&libraries=drawing">
 </script>
 ```
 
@@ -44,7 +44,7 @@ To request multiple libraries, separate them with commas:
 
 ```html
 <script
-  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=drawing,visualization,places">
+  src="https://maps.googleapis.com/maps/api/js?loading=async&key=YOUR_API_KEY&libraries=drawing,visualization,places">
 </script>
 ```
 
